@@ -6,7 +6,7 @@ def aprifile(percorso):
             return (settings)
 
     except:
-        print("File impostazioni non trovato")
+        print("File not found")
         exit()
 
 def scrivifile(text, percorso):
@@ -16,4 +16,4 @@ def scrivifile(text, percorso):
             ptrfile.write(text)
 
     except:
-        print("Impossibile scrivere file debug")
+        print("Error")
